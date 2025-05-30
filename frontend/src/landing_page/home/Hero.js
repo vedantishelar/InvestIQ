@@ -2,7 +2,16 @@ import React from 'react';
 
 function Hero() {
     return ( 
-        <h1>Hero <i class="fa fa-user-circle" aria-hidden="true"></i></h1>
+        <div className='container'>
+            <div className='row'>
+                <div className='col-6'>
+                    <h1>Trust with confidence</h1>
+                </div>
+                <div className='col-6'>
+                    <img src='media/images/ecosystem.png' style={{width:"75%"}}/>
+                </div>
+            </div>
+        </div>
      );
 }
 
